@@ -3,10 +3,11 @@ USE PORT 5000 ON THIS ONE
 # Pug or Ugh
 Project 11 of the Python Web Development Techdegree program
 
+You can see a working demo at [https://pugorugh.herokuapp.com/](https://pugorugh.herokuapp.com/).
 This project uses a REST API built with Django Rest Framework for a React app
-that allows users to browse a selection of dogs. 
+that allows users to browse a selection of dogs.
 
-Users can: 
+Users can:
 
 - set multiple selection criteria that automatically filter the dogs
 - save decisions on which dogs they like and dislike (pug or ugh)
@@ -24,8 +25,8 @@ _If you haven't installed Node.js, you can find instructions at
 
 1. Download the project and change into the project directory.
     (The one containing `manage.py`.)
-2. Create a new virtual environment 
-    - Windows: `python -m venv env` 
+2. Create a new virtual environment
+    - Windows: `python -m venv env`
     - Linux/Mac: `python3 -m venv env`
 3. Activate the virtual environment
     - Windows: `.\env\Scripts\activate`
@@ -37,8 +38,8 @@ _If you haven't installed Node.js, you can find instructions at
 6. Load the initial data in the `dog_data.json` fixture.
     - `python manage.py loaddata dog_data.json`
 
-    
-### II. Set up the React front end 
+
+### II. Set up the React front end
 
 1. Change into the frontend directory.
     - `cd frontend`
@@ -58,12 +59,12 @@ to run everything. You'll be running Django on port 8000 and React on port 3000.
     - `cd frontend`
 3. Start the Node server. It should start on port 3000.
     - `npm start`
-4. This should open a new browser tab automatically, but if not, 
+4. This should open a new browser tab automatically, but if not,
 open your browser and go to [127.0.0.1:3000](http://127.0.0.1:3000) to use the app.
 
 5. You can now register a new user from the login screen, or you can log in using the existing admin account:
 
 - Username: `admin`
 - Password: `test`
-    
+
 Dogs can be deleted by the user who added them or an admin.
