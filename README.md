@@ -1,5 +1,3 @@
-USE PORT 5000 ON THIS ONE
-
 # Pug or Ugh
 Project 11 of the Python Web Development Techdegree program
 
