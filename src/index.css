@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+/* Sofia Pro */
+@import url('https://use.typekit.net/lin3tkp.css');
+/* Proxima Nova */
+@import url('https://use.typekit.net/cep2mlt.css');
+/* Futura PT */
+@import url('https://use.typekit.net/lvh8xzp.css');
+
+:root {
+  --color-text: #fff;
+  --color-text-dark: #222;
+  --color-text-muted: #999;
+
+  --color-bg-navbar: #27a1aa;
+  --color-text-navbar: rgba(255, 255, 255, 0.5);
+  --color-text-navbar-active: var(--color-text);
+
+  --color-text-input: #666;
+
+  --color-text-link: #27a1aa;
+  --color-text-link-hover: #537d7b;
+  /* --color-text-button: #A5C4C2;
+  --color-text-button-hover: #689B98; */
+  --color-text-button: var(--color-text-link);
+  --color-text-button-hover: var(--color-text-link-hover);
+  --color-text-button-disabled: #a5c4c2;
+
+  --color-checkbox: var(--color-text-link);
+  --color-checkbox-border: var(--color-text-link);
+  /* --color-checkbox-border: var(--color-text-dark); */
+  --color-check: var(--color-text);
+  --border-radius: 0.1em;
+
+  --color-border: #c4d8d7;
+  --color-border-focus: #689b98;
+
+  --color-inactive: #ccc;
+
+  --color-bg: #f6ebe5;
+  --color-bg-card: #fff;
+
+  --max-width: 1200px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+footer,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: futura-pt, sans-serif;
+  line-height: 1.5;
+  background-color: var(--color-bg);
+  margin-bottom: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1,
+.H1 {
+  font-size: 1.25rem;
+}
+
+h2,
+.H2 {
+  font-size: 2.4rem;
+}
+
+h3,
+.H3 {
+  font-size: 1.8rem;
+}
+
+h4,
+.H4 {
+  font-size: 1.25rem;
+}
+
+h5,
+.H5 {
+  font-size: 1rem;
+}
+
+h6,
+.H6 {
+  font-size: 1.4rem;
+  font-weight: normal;
+  color: var(--color-text-muted);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin: 0;
+}
+
+.IconButton {
+  opacity: 0.75;
+}
+
+.IconButton:hover {
+  opacity: 1;
+}
+
+.IconButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.Header {
+  font-family: 'Amatic SC', cursive;
+  font-size: 4rem;
+}
