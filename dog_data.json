@@ -1,0 +1,499 @@
+[
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$180000$rkWJuXei5cwI$X6l71feDqa5I4oiKAA1wHxAQ6sTuWsP/OJFEq4eHjzY=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-06-01T13:12:56.815Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3u00tc9krglhdl40jdkm5k112vii103i",
+  "fields": {
+    "session_data": "OWYxMjllZjhmOWM3NDBmZGFmOWJlZGVhZGY1MWI4NDJhZmNhYzEzNzp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIyN2VlNjU5YTFhNDZlMDk4NDMzYzBmZjIxY2IzOGVmMDM3YzUxNjg2In0=",
+    "expire_date": "2020-10-11T12:29:39.576Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dgi35mq8izsh0qo4o32al6ppz6q1j1ex",
+  "fields": {
+    "session_data": "OWYxMjllZjhmOWM3NDBmZGFmOWJlZGVhZGY1MWI4NDJhZmNhYzEzNzp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIyN2VlNjU5YTFhNDZlMDk4NDMzYzBmZjIxY2IzOGVmMDM3YzUxNjg2In0=",
+    "expire_date": "2020-10-06T21:41:52.750Z"
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "0fb5cec12d30c27a5bb57a426bb2f895d92210e4",
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "created": "2020-09-10T03:48:37.432Z"
+  }
+},
+{
+  "model": "pugorugh.dog",
+  "pk": 1,
+  "fields": {
+    "added_by": null,
+    "name": "Francesca",
+    "image": "images/dogs/1.jpg",
+    "breed": "Labrador",
+    "_age": 72,
+    "gender": "f",
+    "size": "l",
+    "type": "m",
+    "birthdate": "2014-06-01",
+    "favorite_cat_food": "",
+    "french_films": false,
+    "chicken_noises": false,
+    "is_carl_sagan": false
+  }
+},
+{
+  "model": "pugorugh.dog",
+  "pk": 2,
+  "fields": {
+    "added_by": null,
+    "name": "Hank",
+    "image": "images/dogs/2.jpg",
+    "breed": "French Bulldog",
+    "_age": 14,
+    "gender": "m",
+    "size": "s",
+    "type": "m",
+    "birthdate": "2019-04-01",
+    "favorite_cat_food": "",
+    "french_films": false,
+    "chicken_noises": false,
+    "is_carl_sagan": false
+  }
+},
+{
+  "model": "pugorugh.dog",
+  "pk": 3,
+  "fields": {
+    "added_by": null,
+    "name": "Carl Sagan",
+    "image": "images/dogs/sagan.jpg",
+    "breed": "Carl",
+    "_age": 50,
+    "gender": "m",
+    "size": "l",
+    "type": "m",
+    "birthdate": "2016-04-01",
+    "favorite_cat_food": "Whiskas",
+    "french_films": true,
+    "chicken_noises": true,
+    "is_carl_sagan": true
+  }
+},
+{
+  "model": "pugorugh.dog",
+  "pk": 4,
+  "fields": {
+    "added_by": null,
+    "name": "Rush",
+    "image": "images/dogs/robodog.jpg",
+    "breed": "Genibo",
+    "_age": 20,
+    "gender": "f",
+    "size": "s",
+    "type": "r",
+    "birthdate": "2018-10-01",
+    "favorite_cat_food": "",
+    "french_films": false,
+    "chicken_noises": false,
+    "is_carl_sagan": false
+  }
+},
+{
+  "model": "pugorugh.dog",
+  "pk": 5,
+  "fields": {
+    "added_by": null,
+    "name": "Muffin",
+    "image": "images/dogs/3.jpg",
+    "breed": "Boxer",
+    "_age": 24,
+    "gender": "f",
+    "size": "xl",
+    "type": "m",
+    "birthdate": "2018-06-01",
+    "favorite_cat_food": "",
+    "french_films": false,
+    "chicken_noises": false,
+    "is_carl_sagan": false
+  }
+},
+{
+  "model": "pugorugh.dog",
+  "pk": 6,
+  "fields": {
+    "added_by": null,
+    "name": "Bjorn",
+    "image": "images/dogs/4.jpg",
+    "breed": "Swedish Vallhund",
+    "_age": 36,
+    "gender": "m",
+    "size": "m",
+    "type": "m",
+    "birthdate": "2017-06-01",
+    "favorite_cat_food": "",
+    "french_films": false,
+    "chicken_noises": false,
+    "is_carl_sagan": false
+  }
+},
+{
+  "model": "pugorugh.dog",
+  "pk": 7,
+  "fields": {
+    "added_by": null,
+    "name": "Hercules",
+    "image": "images/dogs/5.jpg",
+    "breed": "Chihuahua",
+    "_age": 96,
+    "gender": "m",
+    "size": "s",
+    "type": "m",
+    "birthdate": "2012-06-01",
+    "favorite_cat_food": "",
+    "french_films": false,
+    "chicken_noises": false,
+    "is_carl_sagan": false
+  }
+},
+{
+  "model": "pugorugh.dog",
+  "pk": 8,
+  "fields": {
+    "added_by": null,
+    "name": "Pez",
+    "image": "images/dogs/6.jpg",
+    "breed": "Unknown Mix",
+    "_age": 3,
+    "gender": "m",
+    "size": "m",
+    "type": "m",
+    "birthdate": "2020-03-01",
+    "favorite_cat_food": "",
+    "french_films": false,
+    "chicken_noises": false,
+    "is_carl_sagan": false
+  }
+},
+{
+  "model": "pugorugh.dog",
+  "pk": 9,
+  "fields": {
+    "added_by": null,
+    "name": "Cocoa",
+    "image": "images/dogs/7.jpg",
+    "breed": "Chocolate Labrador Mix",
+    "_age": 60,
+    "gender": "f",
+    "size": "l",
+    "type": "m",
+    "birthdate": "2015-06-01",
+    "favorite_cat_food": "",
+    "french_films": false,
+    "chicken_noises": false,
+    "is_carl_sagan": false
+  }
+},
+{
+  "model": "pugorugh.dog",
+  "pk": 10,
+  "fields": {
+    "added_by": null,
+    "name": "Lord Barkley",
+    "image": "images/dogs/8.jpg",
+    "breed": "English Bulldog",
+    "_age": 26,
+    "gender": "m",
+    "size": "m",
+    "type": "m",
+    "birthdate": "2018-04-01",
+    "favorite_cat_food": "",
+    "french_films": false,
+    "chicken_noises": false,
+    "is_carl_sagan": false
+  }
+},
+{
+  "model": "pugorugh.dog",
+  "pk": 11,
+  "fields": {
+    "added_by": null,
+    "name": "Sandy",
+    "image": "images/dogs/9.jpg",
+    "breed": "Goldendoodle",
+    "_age": 14,
+    "gender": "f",
+    "size": "l",
+    "type": "m",
+    "birthdate": "2019-04-01",
+    "favorite_cat_food": "",
+    "french_films": false,
+    "chicken_noises": false,
+    "is_carl_sagan": false
+  }
+},
+{
+  "model": "pugorugh.dog",
+  "pk": 12,
+  "fields": {
+    "added_by": null,
+    "name": "Cookie",
+    "image": "images/dogs/10.jpg",
+    "breed": "Golden Spaniel Mix",
+    "_age": 48,
+    "gender": "f",
+    "size": "m",
+    "type": "m",
+    "birthdate": "2016-06-01",
+    "favorite_cat_food": "",
+    "french_films": false,
+    "chicken_noises": false,
+    "is_carl_sagan": false
+  }
+},
+{
+  "model": "pugorugh.dog",
+  "pk": 13,
+  "fields": {
+    "added_by": null,
+    "name": "Custard",
+    "image": "images/dogs/11.jpg",
+    "breed": "Yellow Lab",
+    "_age": 84,
+    "gender": "m",
+    "size": "l",
+    "type": "m",
+    "birthdate": "2013-06-01",
+    "favorite_cat_food": "",
+    "french_films": false,
+    "chicken_noises": false,
+    "is_carl_sagan": false
+  }
+},
+{
+  "model": "pugorugh.dog",
+  "pk": 14,
+  "fields": {
+    "added_by": null,
+    "name": "Captain Jack",
+    "image": "images/dogs/12.jpg",
+    "breed": "Pug Mix",
+    "_age": 66,
+    "gender": "m",
+    "size": "s",
+    "type": "m",
+    "birthdate": "2014-12-01",
+    "favorite_cat_food": "",
+    "french_films": false,
+    "chicken_noises": false,
+    "is_carl_sagan": false
+  }
+},
+{
+  "model": "pugorugh.dog",
+  "pk": 15,
+  "fields": {
+    "added_by": null,
+    "name": "Gypsy",
+    "image": "images/dogs/13.jpg",
+    "breed": "Golden Retriever",
+    "_age": 30,
+    "gender": "f",
+    "size": "l",
+    "type": "m",
+    "birthdate": "2017-12-01",
+    "favorite_cat_food": "",
+    "french_films": false,
+    "chicken_noises": false,
+    "is_carl_sagan": false
+  }
+},
+{
+  "model": "pugorugh.dog",
+  "pk": 16,
+  "fields": {
+    "added_by": null,
+    "name": "Bella",
+    "image": "images/dogs/14.jpg",
+    "breed": "Collie",
+    "_age": 14,
+    "gender": "f",
+    "size": "l",
+    "type": "m",
+    "birthdate": "2019-04-01",
+    "favorite_cat_food": "",
+    "french_films": false,
+    "chicken_noises": false,
+    "is_carl_sagan": false
+  }
+},
+{
+  "model": "pugorugh.dog",
+  "pk": 17,
+  "fields": {
+    "added_by": null,
+    "name": "Gizmo",
+    "image": "images/dogs/15.jpg",
+    "breed": "English Springer Spaniel",
+    "_age": 78,
+    "gender": "m",
+    "size": "l",
+    "type": "m",
+    "birthdate": "2013-12-01",
+    "favorite_cat_food": "",
+    "french_films": false,
+    "chicken_noises": false,
+    "is_carl_sagan": false
+  }
+},
+{
+  "model": "pugorugh.dog",
+  "pk": 18,
+  "fields": {
+    "added_by": null,
+    "name": "Prince",
+    "image": "images/dogs/16.jpg",
+    "breed": "Unknown Breed",
+    "_age": 81,
+    "gender": "m",
+    "size": "s",
+    "type": "m",
+    "birthdate": "2013-09-01",
+    "favorite_cat_food": "",
+    "french_films": false,
+    "chicken_noises": false,
+    "is_carl_sagan": false
+  }
+},
+{
+  "model": "pugorugh.dog",
+  "pk": 19,
+  "fields": {
+    "added_by": null,
+    "name": "Sadie",
+    "image": "images/dogs/17.jpg",
+    "breed": "Springer Spaniel",
+    "_age": 50,
+    "gender": "f",
+    "size": "l",
+    "type": "m",
+    "birthdate": "2016-04-01",
+    "favorite_cat_food": "",
+    "french_films": false,
+    "chicken_noises": false,
+    "is_carl_sagan": false
+  }
+},
+{
+  "model": "pugorugh.dog",
+  "pk": 20,
+  "fields": {
+    "added_by": null,
+    "name": "Zumba",
+    "image": "images/dogs/18.jpg",
+    "breed": "Yorkshire Terrier",
+    "_age": 11,
+    "gender": "m",
+    "size": "s",
+    "type": "m",
+    "birthdate": "2019-07-01",
+    "favorite_cat_food": "",
+    "french_films": false,
+    "chicken_noises": false,
+    "is_carl_sagan": false
+  }
+},
+{
+  "model": "pugorugh.dog",
+  "pk": 21,
+  "fields": {
+    "added_by": null,
+    "name": "Elsa",
+    "image": "images/dogs/19.jpg",
+    "breed": "Husky",
+    "_age": 2,
+    "gender": "f",
+    "size": "m",
+    "type": "m",
+    "birthdate": "2020-04-01",
+    "favorite_cat_food": "",
+    "french_films": false,
+    "chicken_noises": false,
+    "is_carl_sagan": false
+  }
+},
+{
+  "model": "pugorugh.userdog",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "dog": 2,
+    "status": "l",
+    "hidden": false
+  }
+},
+{
+  "model": "pugorugh.userdog",
+  "pk": 3,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "dog": 3,
+    "status": "l",
+    "hidden": false
+  }
+},
+{
+  "model": "pugorugh.userpref",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "age": "b,s,a,y",
+    "gender": "m,f",
+    "size": "s,m,l,xl",
+    "type": "r,m"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2020-09-22T22:06:44.757Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "pugorugh",
+      "userdog"
+    ],
+    "object_id": "1",
+    "object_repr": "UserDog object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+}
+]
